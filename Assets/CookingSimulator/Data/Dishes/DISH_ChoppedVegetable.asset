@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7285cc9ea7ab18446a2cb022df41e4af, type: 3}
+  m_Name: DISH_ChoppedVegetable
+  m_EditorClassIdentifier: Assembly-CSharp::CookingSimulator.Scripts.Data.DishDefinition
+  displayName: Chopped Vegetable
+  scoreValue: 20
+  tickColor: {r: 0.15, g: 0.5, b: 0.15, a: 1}
+  mesh: {fileID: 0}
+  material: {fileID: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fb20a4f7831b44cb9ce8215bb2ed9e, type: 3}
+  m_Name: RCP_CookedMeat
+  m_EditorClassIdentifier: Assembly-CSharp::CookingSimulator.Scripts.Data.RecipeDefinition
+  dish: {fileID: 11400000, guid: 4206f83d1f6c7394fb6a8082d3766009, type: 2}
+  steps:
+  - action: 2
+    ingredient: {fileID: 11400000, guid: 0dae5a7fbe37b464b889aaaba9999340, type: 2}
+    duration: 6
+    meshAfterStep: {fileID: 0}
+    materialAfterStep: {fileID: 2100000, guid: ee3b45783de4cfa489d5cf8c08158f37, type: 2}

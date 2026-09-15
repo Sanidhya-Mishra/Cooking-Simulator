@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5fb20a4f7831b44cb9ce8215bb2ed9e, type: 3}
+  m_Name: RCP_CheeseSlice
+  m_EditorClassIdentifier: Assembly-CSharp::CookingSimulator.Scripts.Data.RecipeDefinition
+  dish: {fileID: 11400000, guid: be16c1f4995bdc54d9840ea4f61b3547, type: 2}
+  steps:
+  - action: 1
+    ingredient: {fileID: 11400000, guid: b63b81554fa69d047bde52c2b906a6c8, type: 2}
+    duration: 1
+    meshAfterStep: {fileID: 0}
+    materialAfterStep: {fileID: 0}
