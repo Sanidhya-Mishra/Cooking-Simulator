@@ -55,30 +55,5 @@ Press **Tab** in game to open the recipe book.
 - **Render pipeline:** Universal Render Pipeline (URP)
 - **Input:** Unity Input System
 
-This repo uses [Git LFS](https://git-lfs.com) for fonts, images and documents, so install it before cloning:
-
-```
-git lfs install
-git clone https://github.com/Sanidhya-Mishra/Cooking-Simulator.git
-```
-
-Add the folder in Unity Hub, open it with Unity 6000.4.12f1, then open `Assets/CookingSimulator/Scenes/Kitchen.unity` and press **Play**.
-
-## Project structure
-
-```
-Assets/CookingSimulator/
-├── Art/          Materials
-├── Data/         ScriptableObjects: dishes, ingredients, recipes, stations, game settings
-├── Prefabs/
-├── Scenes/       Kitchen.unity
-└── Scripts/
-    ├── Core/     Orders and scoring (plain C#, no scene dependencies)
-    ├── Data/     ScriptableObject definitions
-    ├── Gameplay/ Player, stations, customer windows, game flow
-    └── UI/       HUD, menus, recipe book, order tickets
-Build/            Playable Windows build
-Docs/             Project documentation
-```
 
 Round length, number of windows, player speed and other settings are in `Assets/CookingSimulator/Data/GameConfig.asset`. You can add new dishes by creating Dish and Recipe assets and adding them to the recipe book (`RB_AllRecipes`), without changing any code.
